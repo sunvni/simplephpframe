@@ -1,0 +1,6 @@
+{
+    "name": "Test App",
+    "short_name": "Test-App",
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "description": "Dont known"
+}
