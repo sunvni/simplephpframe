@@ -12,8 +12,8 @@ class BaseView
 
     public function display($view,$data)
     {
-        if(file_exists("./publics/$view.php"))
-            include("./publics/$view.php");
+        if(file_exists("./includes/$view.php"))
+            include("./includes/$view.php");
         else {
             throw new Exception("View not found", 1);
         }
