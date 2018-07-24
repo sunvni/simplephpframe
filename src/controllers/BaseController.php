@@ -17,6 +17,10 @@ class BaseController
             'name' => 'Hieu',
             'menu' => 'menu'
         ];
-        $this->view->display('home',$data);
+        $this->render('home',$data);
+    }
+    public function render($view,$data)
+    {
+        $this->view->display($view,$data);
     }
 }
